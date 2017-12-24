@@ -52,6 +52,19 @@
                 <input class="reg_info" type="text" placeholder="First Name" name="firstname" />
                 <input class="reg_info" type="text" placeholder="Last Name" name="lastname" />
             </article>
+            <article class="reg">
+                <input class="reg_info" type="text" placeholder="User name" name="username" />
+            </article>
+            <article class="reg">
+                <input class="reg_info" type="text" placeholder="Contact no." name="number" />
+            </article>
+            <article class="reg">
+                <input class="reg_info" type="text" placeholder="Email_id" name="email" />
+            </article>
+            <article class="reg">
+                <input class="reg_info" type="text" placeholder="Password" name="psw" />
+            </article>
+
             Username:<br>
             <input type="text" name="username">
             <br> Contact No.:<br>
