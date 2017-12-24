@@ -1,8 +1,11 @@
 <html>
 
 <head>
+    <title>
+    Prodigy'18
+    </title>
     <style>
-        <?php include '../css/header.css';?>
+        <?php include 'includes.php';?>
 
     </style>
 </head>
