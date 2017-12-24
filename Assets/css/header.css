@@ -41,3 +41,8 @@ header div ul li {
 a {
     text-decoration: none;
 }
+body{
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

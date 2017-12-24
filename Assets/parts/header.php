@@ -2,8 +2,7 @@
 
 <head>
     <style>
-        <?php include '../css/header.css';
-        ?>
+        <?php include '../css/header.css';?>
 
     </style>
 </head>
