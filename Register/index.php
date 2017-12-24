@@ -10,6 +10,7 @@
     <?php include '../Assets/parts/header.php';?>
     <link rel="stylesheet" href="../Assets/css/header.css">
    <?php include '../Assets/parts/includes.php'; ?>
+    <content id="center_box">
     <form action="/action_page.php">
         First name:<br>
         <input type="text"
@@ -39,6 +40,7 @@
         <input type="submit">
 
     </form>
+    </content>
 </body>
 
 </html>
