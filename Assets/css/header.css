@@ -23,25 +23,29 @@
     display: inline-block;
     float: right;
     margin: -0.5vh;
+   text-align: right;
 }
 
 header div ul li {
     list-style: none;
     display: inline;
+    /* background-color: brown;*/
 }
 
 .nav {
     text-decoration: none;
     color: #18436e;
-    font-size: 2.5vh;
-    border-right: 1px solid #18436e;
-    padding: 0 1vw;
+    font-size: 3vh;
+    /*border-right: 1px solid #18436e;*/
+    vertical-align: middle;
+    padding: 0vw 2vh 1vw;
 }
 
 a {
     text-decoration: none;
 }
-body{
+
+body {
     background-image: url("../images/bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
