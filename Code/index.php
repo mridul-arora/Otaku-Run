@@ -8,8 +8,8 @@
 
 <body>
     <?php include '../Assets/parts/header.php';?>
-    <link rel="stylesheet" href="../Assets/css/header.css">
-    <link rel="stylesheet" href="../Assets/css/code.css">
+    <link rel="stylesheet" href="../Assets/css/header.css"/>
+    <link rel="stylesheet" href="../Assets/css/code.css"/>
     <div id="code_wrapper">
         <center>
             <article id="code_box">
