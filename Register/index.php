@@ -25,6 +25,18 @@
         <br>
         Contact No.:<br>
         <input type="text"
+               name="number">
+        <br>
+        Email_id:<br>
+        <input type="email"
+               name="email">
+        <br>
+        Password:<br>
+        <input type="password"
+               name="psw">
+        <br>
+        <br>
+        <input type="submit">
 
     </form>
 </body>
