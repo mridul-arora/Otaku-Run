@@ -4,11 +4,13 @@
     <title>
         Home-Prodigy123
     </title>
-    <?php include '../Assets/parts/includes.php'; ?>
-</head>
+   </head>
 
 <body>
     <?php include '../Assets/parts/header.php';?>
+    <link rel="stylesheet" href="../Assets/css/header.css">
+   <?php include '../Assets/parts/includes.php'; ?>
+
     <p>This is an online technical event which comprises of two rounds.</p>
     <p>1st round:</p>
     <p>4 Patterns will be shown one after another. Codes for these patterns have to be submitted. There will be a time limit of 5 minutes for each pattern. 10 participants will qualify will qualify for the next round.</p>
