@@ -4,14 +4,14 @@
     <title>
         Register -Pattern
     </title>
+     <?php include '../Assets/parts/header.php';?>
+    <link rel="stylesheet" href="../Assets/css/header.css">
+    <link rel="stylesheet" href="../Assets/css/register.css">
 </head>
 
 <body>
 
-    <?php include '../Assets/parts/header.php';?>
-    <link rel="stylesheet" href="../Assets/css/header.css">
-    <?php include '../Assets/parts/includes.php'; ?>
-    <link rel="stylesheet" href="../Assets/css/register.css">
+
     <div id="reg_wrapper">
         <center>
             <article id="reg_box">

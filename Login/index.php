@@ -4,13 +4,13 @@
     <title>
         Login -Pattern
     </title>
+     <?php include '../Assets/parts/header.php';?>
+    <link rel="stylesheet" href="../Assets/css/header.css">
+    <link rel="stylesheet" href="../Assets/css/login.css">
 </head>
 
 <body>
-    <?php include '../Assets/parts/header.php';?>
-    <link rel="stylesheet" href="../Assets/css/header.css">
-    <?php include '../Assets/parts/includes.php'; ?>
-    <link rel="stylesheet" href="../Assets/css/login.css">
+
     <div id="login_wrapper">
         <center>
             <article id="login_box">
