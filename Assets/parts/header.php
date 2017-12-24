@@ -1,10 +1,15 @@
 <html>
 
 <head>
-    <link ref="stylesheet" href="../css/header.css">
+    <style>
+        <?php include '../css/header.css';
+        ?>
+
+    </style>
 </head>
 
 <body>
+
 
     <header id="header">
         <a href="/"><img src="/assets/images/a.jpg" style="height: 4vh; position: absolute" /><span id="brand"><strong>Pattern</strong></span></a>
