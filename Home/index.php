@@ -11,7 +11,7 @@
     <?php include '../Assets/parts/header.php';?>
     <link rel="stylesheet" href="../Assets/css/header.css">
     <?php include '../Assets/parts/includes.php'; ?>
-    <article id="border_center_box">
+    <div id="home_wrapper">
     <article id="center_box">
         <p>This is an online technical event which comprises of two rounds.<br>
         1st round:<br>
@@ -19,7 +19,7 @@
         2nd round:<br>
         This is a time based event. Each question containing a code will be displayed for 5 minutes, the participants who submits the correct output first gets the most points and accordingly marking will be done based on their submission time. There will be 5-10 questions.. The participants with maximum score wins.</p>
     </article>
-        </article>
+        </div>
 </body>
 
 </html>
