@@ -1,0 +1,18 @@
+#center_box {
+    /* background-color: white;*/
+    border-color: #18436e;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 2px #18436e;
+    width: 60vw;
+    height: 30vh;
+    background-color: white;
+    padding: 15vh 4vw;
+    vertical-align: middle;
+    margin:auto;
+
+}
+
+#border_center_box {
+    margin-top: 0vh;
+
+}

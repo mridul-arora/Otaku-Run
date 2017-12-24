@@ -1,5 +1,5 @@
 #header {
-    display: inline-block;
+    display: block;
     padding: 1.5vh 15vw 2.5vh 15vw;
     background-color: white;
     width: 70vw;
@@ -40,9 +40,20 @@ header div ul li {
     vertical-align: middle;
     padding: 0vw 2vh 1vw;
 }
-
-a {
-    text-decoration: none;
+li a:active{
+    background-color:white;
+    color:#18436e;
+     text-decoration: none;
+}
+li a:hover{
+    background-color: darkslategrey;
+    color:white;
+     text-decoration: none;
+}
+li a:active{
+    background-color: darkred;
+    color:white;
+     text-decoration: none;
 }
 
 body {
