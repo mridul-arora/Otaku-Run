@@ -40,8 +40,8 @@ header div ul li {
     vertical-align: middle;
     padding: 0vw 2vh 1vw;
 }
-li a:active{
-    background-color:white;
+li a:link{
+    background-color:orangered;
     color:#18436e;
      text-decoration: none;
 }

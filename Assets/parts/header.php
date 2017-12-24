@@ -4,7 +4,6 @@
     <title>
         Prodigy'18
     </title>
-    <?php include 'includes.php';?>
 </head>
 
 <body>

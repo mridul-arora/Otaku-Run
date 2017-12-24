@@ -21,7 +21,7 @@
                         <input class="reg_info" type="text" placeholder="Last Name" name="lastname" />
                     </article>
                     <article class="reg">
-                        <input class="reg_info" type="text" placeholder="User name" name="username" />
+                        <input class="reg_info" type="text" placeholder="Username" name="username" />
                         <input class="reg_info" type="password" placeholder="Password" name="pwd" />
                     </article>
                     <article class="reg">
