@@ -18,7 +18,6 @@
                         <input class="code_sub" type="submit" value="Submit" name="submit" />
                     </article>
                 </form>
-
             </article>
         </center>
     </div>
