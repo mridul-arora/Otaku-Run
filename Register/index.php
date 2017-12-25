@@ -2,7 +2,7 @@
 
 <head>
     <title>
-        Register -Pattern
+        Register -Pattern.
     </title>
 </head>
 
