@@ -1,7 +1,7 @@
 #header {
     display: block;
     padding: 1.5vh 15vw 2.5vh 15vw;
-    background-color: indianred;
+    background-image: url("../images/wood.jpg");
     width: 70vw;
     height: 4vh;
     color: #2870b8;
@@ -14,7 +14,7 @@
     font-size: 4vh;
     text-decoration: none;
     color: white;
-    background-color: lightgrey;
+  background-image: url("../images/red.jpg")
 }
 
 .right {
@@ -26,38 +26,37 @@
 header div ul li {
     list-style: none;
     display: inline;
-    /* background-color: brown;*/
 }
-
 .nav {
     text-decoration: none;
     color: #18436e;
     font-size: 3vh;
-    /*border-right: 1px solid #18436e;*/
     vertical-align: middle;
     padding: 0vw 2vh 1vw;
 }
 li a:link{
-    background-color:orangered;
-    color:white;
+    color:dimgrey;
     padding :2vh 0.75vw;
     text-decoration: none;
 }
 li a:visited{
-    background-color: darkred;
-    color:white;
-     text-decoration: none;
+ background-image: url("../images/red.jpg");
+    color:grey;
+    text-shadow: 0px 0px 8px 2px;
+    text-decoration: none;
+
 }
 li a:hover{
-    background-color: darkslategrey;
+    background-image: url("../images/red.jpg");
     color:white;
-     text-decoration: underline;
+    text-decoration: underline;
+       padding :2.5vh 0.75vw;
 }
-/*li a:active{
-    background-color: darkslategray;
+li a:active{
+   background-image: url("../images/red.jpg");
     color:white;
-     text-decoration: underline;
-}*/
+    text-decoration: underline;
+}
 body {
     background-image: url("../images/pattern.jpg");
     background-repeat: no-repeat;

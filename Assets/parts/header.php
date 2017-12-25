@@ -11,7 +11,7 @@
 
 
     <header id="header">
-        <a href="#"><!--<img src="/assets/images/a.jpg" style="height: 4vh; position: absolute" />--><span id="brand"><strong>Pattern</strong></span></a>
+       <!--<img src="/assets/images/a.jpg" style="height: 4vh; position: absolute" />--><span id="brand"><strong>Pattern</strong></span>
         <div class="right">
             <ul>
                 <li><a href='../../../Prodigy/Home/index.php' class='nav'>Home</a></li>
