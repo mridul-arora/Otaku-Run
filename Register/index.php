@@ -21,7 +21,7 @@
     <div id="reg_wrapper">
         <center>
             <article id="reg_box">
-                <form action="register.php" method="post">
+                <form action="../Assets/functions/register.php" method="post">
                     <article class="reg">
                         <input class="reg_info" type="text" placeholder="First Name" name="firstname" />
                         <input class="reg_info" type="text" placeholder="Last Name" name="lastname" />
