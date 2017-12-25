@@ -7,7 +7,6 @@
     color: #2870b8;
     border-bottom: 1px solid #18436e;
     box-shadow: 0px 0px 8px 2px #18436e;
-    position: absolute;
 }
 
 #brand {
@@ -40,10 +39,11 @@ header div ul li {
     vertical-align: middle;
     padding: 0vw 2vh 1vw;
 }
-li a:active{
-    background-color:white;
+li a:link{
+    background-color:orangered;
     color:#18436e;
      text-decoration: none;
+    padding :0.75vh 0.75vw;
 }
 li a:hover{
     background-color: darkslategrey;

@@ -4,84 +4,37 @@
     <title>
         Register -Pattern..
     </title>
+     <?php include '../Assets/parts/header.php';?>
+    <link rel="stylesheet" href="../Assets/css/header.css">
+    <link rel="stylesheet" href="../Assets/css/register.css">
 </head>
 
 <body>
-<<<<<<< HEAD
-    <?php include '../Assets/parts/header.php';?>
-    <link rel="stylesheet" href="../Assets/css/header.css">
-   <?php include '../Assets/parts/includes.php'; ?>
-    <content id="center_box">
-    <form action="/action_page.php">
-        First name:<br>
-        <input type="text"
-               name="firstname">
-        <br>
-        Last name:<br>
-        <input type="text"
-               name="lastname">
-        <br>
-        User name:<br>
-        <input type="text"
-               name="username">
-        <br>
-        Contact No.:<br>
-        <input type="text"
-               name="number">
-        <br>
-        Email_id:<br>
-        <input type="email"
-               name="email">
-        <br>
-        Password:<br>
-        <input type="password"
-               name="psw">
-        <br>
-        <br>
-        <input type="submit">
 
-    </form>
-    </content>
-=======
-   <!-- /*<?php //include '../Assets/parts/header.php';?>
-    <link rel="stylesheet" href="../Assets/css/header.css">-->
-    <?php include '../Assets/parts/includes.php'; ?>
+
     <div id="reg_wrapper">
-        <form action="/action_page.php">
-            <article class="reg">
-                <input class="reg_info" type="text" placeholder="First Name" name="firstname" />
-                <input class="reg_info" type="text" placeholder="Last Name" name="lastname" />
+        <center>
+            <article id="reg_box">
+                <form action="register.php" method="post">
+                    <article class="reg">
+                        <input class="reg_info" type="text" placeholder="First Name" name="firstname" />
+                        <input class="reg_info" type="text" placeholder="Last Name" name="lastname" />
+                    </article>
+                    <article class="reg">
+                        <input class="reg_info" type="text" placeholder="Username" name="username" />
+                        <input class="reg_info" type="password" placeholder="Password" name="pwd" />
+                    </article>
+                    <article class="reg">
+                        <input class="reg_info" type="email" placeholder="Email_id" name="email" />
+                        <input class="reg_info" type="number" placeholder="Contact no." name="number" />
+                    </article>
+                    <article class="reg">
+                    <input class="reg_sub" type="submit" value="Submit" name="submit"/>
+                    </article>
+                </form>
             </article>
-            <article class="reg">
-                <input class="reg_info" type="text" placeholder="User name" name="username" />
-            </article>
-            <article class="reg">
-                <input class="reg_info" type="text" placeholder="Contact no." name="number" />
-            </article>
-            <article class="reg">
-                <input class="reg_info" type="text" placeholder="Email_id" name="email" />
-            </article>
-            <article class="reg">
-                <input class="reg_info" type="text" placeholder="Password" name="psw" />
-            </article>
-
-            Username:<br>
-            <input type="text" name="username">
-            <br> Contact No.:<br>
-            <input type="text" name="number">
-            <br> Email_id:
-            <br>
-            <input type="email" name="email">
-            <br> Password:
-            <br>
-            <input type="password" name="psw">
-            <br>
-            <br>
-            <input type="submit">
-
-        </form>
+        </center>
     </div>
->>>>>>> origin/master
 </body>
 
 </html>

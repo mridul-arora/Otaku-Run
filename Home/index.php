@@ -4,13 +4,12 @@
     <title>
         Home-Prodigy123
     </title>
-    <link rel="stylesheet" href="../Assets/css/home.css"/>
-</head>
+    </head>
 
 <body>
     <?php include '../Assets/parts/header.php';?>
-    <link rel="stylesheet" href="../Assets/css/header.css">
-    <?php include '../Assets/parts/includes.php'; ?>
+     <link rel="stylesheet" href="../Assets/css/home.css"/>
+    <link rel="stylesheet" href="../Assets/css/header.css"/>
     <div id="home_wrapper">
     <article id="center_box">
         <p><b>This is an online technical event which comprises of two rounds.<br>

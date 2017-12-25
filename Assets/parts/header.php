@@ -4,14 +4,13 @@
     <title>
         Prodigy'18
     </title>
-    <?php include 'includes.php';?>
 </head>
 
 <body>
 
 
     <header id="header">
-        <a href="#"><img src="/assets/images/a.jpg" style="height: 4vh; position: absolute" /><span id="brand"><strong>Pattern</strong></span></a>
+        <a href="#"><!--<img src="/assets/images/a.jpg" style="height: 4vh; position: absolute" />--><span id="brand"><strong>Pattern</strong></span></a>
         <div class="right">
             <ul>
                 <li><a href='../../../Prodigy/Home/index.php' class='nav'>Home</a></li>
@@ -20,8 +19,6 @@
                 <li><a href='../../../Prodigy/Code/index.php' class='nav'>Code</a></li>
                 <li><a href='../../../Prodigy/Logout/index.php' class='nav'>Logout</a></li>
                 <!--            <li><a href='/leaderboard' class='nav'>Leaderboard</a></li> -->
-
-
             </ul>
         </div>
     </header>
