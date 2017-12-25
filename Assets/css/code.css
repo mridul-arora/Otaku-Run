@@ -4,9 +4,14 @@
 .code_sub{
     padding:2vh 20vw;
     background-color:cadetblue;
+<<<<<<< HEAD
+     width: 25;
+    height: 2vh;
+=======
       width:50vw;
     height:10vh;
     margin: 0vh 2.5vw;
+>>>>>>> origin/master
 }
 #code_wrapper {
     padding-top: 10vh;
@@ -19,6 +24,11 @@
     box-shadow: 0px 0px 15px 2px #18436e;
     width: 60vw;
     height: 100vh;
+<<<<<<< HEAD
+    background-color: skyblue;
+    padding: 20vh 10vw;
+    margin:auto;
+=======
     background-color: lightsteelblue;
     padding: 10vh 10vw;
      margin: 0vh 10vw;
@@ -36,4 +46,5 @@
     width:50vw;
     height:50vh;
     margin: 0vh 2.5vw;
+>>>>>>> origin/master
 }
