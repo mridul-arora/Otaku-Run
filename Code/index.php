@@ -10,7 +10,18 @@
     <?php include '../Assets/parts/header.php';?>
     <link rel="stylesheet" href="../Assets/css/header.css" />
     <link rel="stylesheet" href="../Assets/css/code.css" />
-
+    <center>
+    <p> *<br>
+      * * *<br>
+    * * * * *<br>
+  * * * * * * *<br>
+* * * * * * * * *<br>
+  * * * * * * *<br>
+    * * * * *<br>
+      * * *<br>
+        *
+        </p>
+</center>
     <div id="code_wrapper">
         <center>
             <article id="code_box">
@@ -23,5 +34,6 @@
             </article>
         </center>
     </div>
+
 </body>
 </html>
