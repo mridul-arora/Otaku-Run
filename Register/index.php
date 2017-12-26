@@ -2,7 +2,7 @@
 
 <head>
     <title>
-        Register -Pattern..
+        Register -Pattern.
     </title>
      <?php include '../Assets/parts/header.php';?>
     <link rel="stylesheet" href="../Assets/css/header.css">
