@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="../Assets/css/header.css">
     <link rel="stylesheet" href="../Assets/css/register.css">
 </head>
+    <style>
+        body
+        {
+            background-color: aqua;
+        }
+    </style>
 
 <body>
 
