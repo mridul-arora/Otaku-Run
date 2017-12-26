@@ -14,7 +14,7 @@
     <center>
     <form action="code.php" method="post">
     <form action="/action_page.php">
-  <textarea name="message" rows="20" cols="200">WRITE CODE HERE.</textarea>
+  <textarea name="message" rows="20" cols="200">WRITE CODE HERE..</textarea>
      <article class="code">
      <input class="code_sub" type="submit" value="Submit" name="submit" />
     </article>
