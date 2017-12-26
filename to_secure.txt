@@ -1,0 +1,4 @@
+Read about the following:
+Cross-site Scripting attacks
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
