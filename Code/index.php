@@ -16,7 +16,7 @@
     <div id="code_wrapper">
         <center>
             <article id="code_box">
-                <p>
+                <p style="background-color: white;">
         *<br>
       * * *<br>
     * * * * *<br>
