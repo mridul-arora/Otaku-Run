@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="../Assets/css/header.css" />
     <link rel="stylesheet" href="../Assets/css/code.css" />
 
-    <div id="code_wrapper">
         <center>
-
-            <article id="code_box">Question.
+            <article id="code_box">Question.1.
                  <div id="ques_box">
              <article id="ques">
                    <pre>
@@ -38,8 +36,6 @@
                 </form>
             </article>
         </center>
-    </div>
-
 </body>
 
 </html>
