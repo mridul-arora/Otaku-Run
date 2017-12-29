@@ -14,7 +14,7 @@
     <center>
         <article id="code_box">
             <div id="qtbar">
-                <div id="ques">Question.1.</div>
+                <div id="ques">question 1.</div>
                 <div id="div"> Time left =
                     <span id="timer"></span>
                 </div>
