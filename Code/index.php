@@ -34,6 +34,16 @@
                     <article class="code">
                         <textarea name="writecode" id="code_here" placeholder="WRITE CODE HERE."></textarea>
                         <input class="code_sub" type="submit" value="Compile & Run" name="submit" />
+                        <p>CLOCK</p>
+                        <p id="demo"></p>
+                       <script>
+var myVar = setInterval(submit, 300);
+function submit() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+  clearInterval(submit);
+</script>
                     </article>
                 </form>
             </article>
