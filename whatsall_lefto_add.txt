@@ -2,3 +2,7 @@ Read about the following:
 Cross-site Scripting attacks
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
+There can be two usernames and passwords 
+1 to add questions and nothing else
+2 to code 
+

@@ -19,6 +19,7 @@
                 <li><a href='../../../Prodigy/Register/index.php' class='nav'>Register</a></li>
                 <li><a href='../../../Prodigy/Code/index.php' class='nav'>Code</a></li>
                 <li><a href='../../../Prodigy/Logout/index.php' class='nav'>Logout</a></li>
+                <li><a href='../../../Prodigy/addques/index.php' class='nav'>Add_question</a></li>
                 <!--            <li><a href='/leaderboard' class='nav'>Leaderboard</a></li> -->
             </ul>
         </div>

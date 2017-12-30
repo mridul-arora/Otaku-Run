@@ -1,0 +1,55 @@
+.code {
+    margin: 2vh 2vw;
+}
+
+.add {
+    padding: 2vh 20vw;
+    background-color: cadetblue;
+    width: 50vw;
+    height: 10vh;
+    margin: 0vh 0.65vw;
+}
+
+#code_box {
+    border-color: #18436e;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 2px #18436e;
+    width: 55vw;
+    height: 100vh;
+    background-color: lightsteelblue;
+    padding: 10vh 2vw;
+    margin: 12vh 20vw;
+}
+/*
+#ques_box {
+    background-color: white;
+    width: 50vw;
+    height: 30vh;
+    margin: 0vh 2.5vw;
+}
+
+#ques {
+    float: left;
+
+}
+*/
+#ques {
+    background-color: white;
+    /*background-image: url("../images/wood.jpg");*/
+    color: black;
+    font-size: 15px;
+    width: 50vw;
+    height: 35vh;
+    margin: 0vh 0.65vw;
+}
+
+#output {
+    background-color: white;
+    /*background-image: url("../images/wood.jpg");*/
+    color: black;
+    font-size: 15px;
+    width: 50vw;
+    height: 50vh;
+    margin: 0vh 0.65vw;
+}
+
