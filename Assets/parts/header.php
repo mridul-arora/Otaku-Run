@@ -2,7 +2,7 @@
 
 <head>
     <title>
-        Prodigy'18
+        Prodigy'18.
     </title>
     <link rel="stylesheet" href="../css/header.css"/>
 </head>
