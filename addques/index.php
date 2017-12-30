@@ -1,15 +1,17 @@
 <html>
-    <head>
-        <title>
-            Connection to a database
-        </title>
-    </head>
-    <body>
-        <?php
+
+<head>
+    <title>
+        Connection to a database
+    </title>
+</head>
+
+<body>
+    <?php
         $con=mysqli_connect('localhost','root','');
         $db=mysqli_select_db($con,'Prodigy');
 
-        if($con){
+       /* if($con){
             echo 'Successfully connnected to the database.';
         }
         else{
@@ -20,12 +22,12 @@
         }
         else{
             die('Error. database not found');
-        }
+        }*/
         ?>
         <br>
         <br>
 
-<!--
+        <!--
 <head>
     <title>
         Code -Pattern...
@@ -33,14 +35,14 @@
 </head>
 -->
 
-    <?php include '../Assets/parts/header.php';?>
-    <link rel="stylesheet" href="../Assets/css/header.css" />
-    <link rel="stylesheet" href="../Assets/css/addques.css" />
+        <?php include '../Assets/parts/header.php';?>
+        <link rel="stylesheet" href="../Assets/css/header.css" />
+        <link rel="stylesheet" href="../Assets/css/addques.css" />
 
-    <center>
-        <article id="code_box">
+        <center>
+            <article id="code_box">
 
-           <!-- <div id="ques_box">
+                <!-- <div id="ques_box">
                 <article id="ques">
                     <pre>
 *
@@ -56,17 +58,29 @@
                 </article>
             </div>-->
 
-            <form action="code.php" method="post">
-                <article class="code">
-                    <textarea name="ques" id="ques" placeholder="WRITE QUESTION here."></textarea>
-                     <textarea name="output" id="output" placeholder="WRITE OUTPUT here."></textarea>
-                    <input class="add" type="submit" value="Save Question" name="submit" />
-                </article>
-            </form>
-        </article>
-    </center>
+                <form action="code.php" method="post">
+                    <article class="code">
+                        <textarea name="ques" id="ques" placeholder="WRITE QUESTION here."></textarea>
+                        <textarea name="output" id="output" placeholder="WRITE OUTPUT here."></textarea>
+                        <input class="add" type="submit" value="Save Question" name="submit" />
+                         <textarea id="look">
+                         <?php //to show the data
+        $query=mysqli_query($con,"SELECT * FROM code");
+        while($row=mysqli_fetch_array($query)){
+            $snum=$row['s.no.'];
+            $question=$row['ques'];
+            $code=$row['code'];
 
-<?php
+            echo $snum.':'.$question.'<br>'.$code;
+        }
+        ?></textarea>
+                    </article>
+                </form>
+            </article>
+        </center>
+
+        <?php
+    /*
 // Escape user inputs for security
 $question = mysqli_real_escape_string($con, $_REQUEST['ques']);
 $code = mysqli_real_escape_string($con, $_REQUEST['code']);
@@ -80,20 +94,18 @@ if(mysqli_query($con, "INSERT INTO code (ques,code) VALUES ('$question', '$code'
 }
 
 // close connection
-mysqli_close($con);
-?>
-<br>
-<br>
- <?php
-        $query=mysqli_query($con,"SELECT * FROM code");
-        while($row=mysqli_fetch_array($query)){
-            $snum=$row['s.no.'];
-            $question=$row['ques'];
-            $code=$row['code'];
+mysqli_close($con);*/
+        $question=$_POST['ques'];
+        $code=$_POST['code'];
 
-            echo $snum.':'.$question.'<br>'.$code;
-        }
-        ?>
+        $query=mysqli_query($con,"INSERT into code VALUES('$question','$code')");
+
+  if(mysqli_query($con, "INSERT INTO code (ques,code) VALUES ('$question', '$code')")){
+    echo "Records added successfully.";
+} else{
+    echo "ERROR: Could not able to execute ";
+}
+?>
 </body>
 
 </html>
