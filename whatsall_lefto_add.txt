@@ -5,6 +5,7 @@ Cross-site Scripting attacks
 There can be two usernames and passwords 
 1 to add questions and nothing else
 2 to code 
+3 Colour Code 1f5289
 
 <?php
 
