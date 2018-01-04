@@ -4,7 +4,7 @@
     <title>
         Prodigy'18.
     </title>
-    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/_header.css" />
 </head>
 
 <body>
