@@ -1,0 +1,75 @@
+/*#header {
+   display: block;
+    padding: 9vh 15vw 0 10vh;
+    background-image: url("../images/bar.png");
+    background-repeat: no-repeat;
+
+    color: #2870b8;
+    border-bottom: 1px solid #18436e;
+    box-shadow: 0px 0px 8px 2px #18436e;
+}
+
+#brand {
+    padding: 6vh 2vw;
+    font-size: 4vh;
+    text-decoration: none;
+    color: white;
+  background-image: url("../images/red.jpg")
+}
+
+.right {
+    display: inline-block;
+    float: right;
+    margin: -2vh 0vw;
+}
+
+header div ul li {
+    list-style: none;
+    display: inline;
+}
+.nav {
+    text-decoration: none;
+    color: #18436e;
+    font-size: 3vh;
+    vertical-align: middle;
+    padding: 0vw 2vh 1vw;
+}
+li a:link{
+    color:dimgrey;
+    padding :2vh 0.75vw;
+    text-decoration: none;
+}
+li a:visited{
+ background-image: url("../images/red.jpg");
+    color:grey;
+    text-shadow: 0px 0px 8px 2px;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-image: url("../images/red.jpg");
+    color:white;
+    text-decoration: underline;
+       padding :2.5vh 0.75vw;
+}
+li a:active{
+   background-image: url("../images/red.jpg");
+    color:white;
+    text-decoration: underline;
+}*/
+
+body
+/* {
+    background-image: url("../images/pattern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}*/
+
+    {
+    background: url("../images/pattern.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
